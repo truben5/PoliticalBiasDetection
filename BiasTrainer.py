@@ -1,7 +1,8 @@
 from DataLoader import DataLoader
 
 def main():
-	collector = DataLoader()
+	loader = DataLoader()
+	loader.load()
 	
 if __name__ == "__main__":
 	main()
