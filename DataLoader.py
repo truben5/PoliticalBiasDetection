@@ -66,7 +66,6 @@ class DataLoader:
 			identifier = identifier + 1
 
 		self.publisher_classifier = np.asarray(classifier_list)
-		print(self.publisher_classifier)
 
 
 	def _create_bias_classifier(self):

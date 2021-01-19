@@ -1,8 +1,10 @@
 from DataLoader import DataLoader
+from Model import Model
 
 def main():
-	loader = DataLoader()
-	loader.load()
+	collector = DataLoader()
+	collector.load()
+	model = Model()
 	
 if __name__ == "__main__":
 	main()
